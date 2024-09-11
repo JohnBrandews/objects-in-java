@@ -2,6 +2,7 @@ public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {64,34,25,12,22,11,90};
         int target = 22;
+        
         int index = linearSearch(arr, target);
         if(index != -1) {
             System.out.println("element" + target + "found at index " + index);

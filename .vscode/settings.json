@@ -1,3 +1,8 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.debug.settings.console": "integratedTerminal",
+"java.debug.settings.forceBuildBeforelaunch": true,
+"java.debug.settings.vmArgs": "-Dconsole.encoding=UTF-8",
+"java.debug.settings.externalConsole": false
 }

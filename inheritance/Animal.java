@@ -4,7 +4,7 @@
     public void eat(){
         System.out.println("the animal is eating");
     }
-}
+  }
 class Mammal extends Animal {
     public void giveBirth(){
         System.out.println("the animal is giving birth");
