@@ -5,8 +5,8 @@ public class marks {
         int [] marks = new int[10];
         int sum = 0;
         Scanner input = new Scanner(System.in);
-        // System.out.println("enter your name:");
-        // String name = input.nextLine();
+        System.out.println("enter your name:");
+        String name = input.nextLine();
         System.out.println("enter your marks");
         int i = input.nextInt();
         for ( i = 0; i < marks.length; i++) {
